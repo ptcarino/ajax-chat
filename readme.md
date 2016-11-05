@@ -4,6 +4,8 @@ Work in progress. For my learning purposes only.
 
 Laravel version: 5.3
 
+AJAX Chat reference: https://www.youtube.com/watch?v=GLDjgbbBvOg
+
 Project Files:
 <ul>
     <li>ChatsController</li>
