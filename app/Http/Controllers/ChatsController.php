@@ -13,6 +13,11 @@ class ChatsController extends Controller
     }
 
     public function getChatMessages() {
+        /*
+         * Needs a join query that will work with save() method.
+         * Commented Eloquent queries are test queries which didn't work with save() method or maybe just needs fixing.
+         */
+
         $chats = DB::table("chats")->join("users", "chats.users_id", "=", "users.id")->where("read", 0)->take(1)->get();
 
 //        $chats = DB::select('SELECT chats.*, users.* FROM chats JOIN users ON chats.users_id = users.id AND chats.read = 0 LIMIT 1');

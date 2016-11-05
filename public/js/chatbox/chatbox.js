@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     username = $('username').html();
     users_id = $('users_id').html();
@@ -16,7 +18,8 @@ function getData() {
 }
 
 function getChatMessages() {
-    $.post('http://localhost:8000/getChatMessages', function (data) {
+    // Code is from video tutorial but with added $.map functionality
+    $.post('/getChatMessages', function (data) {
         if(data.length > 0) {
             $.map(data, function (chat) {
                 $('#chats').append(
@@ -32,6 +35,7 @@ function getChatMessages() {
         }
     });
 
+    // .getJSON method. Works as well as the method above.
     /*$.getJSON('/getChatMessages', { users_id: users_id }, function (json) {
         $.each(json, function (i, data) {
             $('#chats').append(
@@ -47,6 +51,7 @@ function getChatMessages() {
     });*/
 }
 
+// This function needs some work. Currently not working.
 function sendMessage() {
     var chatbody = $('#chatbody').val();
 

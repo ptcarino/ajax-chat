@@ -2,6 +2,27 @@
 
 Work in progress. For my learning purposes only.
 
+Laravel version: 5.3
+
+Project Files:
+<ul>
+    <li>ChatsController</li>
+    <li>Chat Model</li>
+    <li>Migration for Chats table</li>
+    <li>Seeds for Users and Chats table</li>
+    <li>chatbox.js (public/js/chatbox/chatbox.js)</li>
+</ul>
+
+Modified Files:
+<ul>
+    <li>User Model (added relationship)</li>
+    <li>home.blade.php</li>
+    <li>app.blade.php (added scripts)</li>
+</ul>
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
 
 <p align="center">
