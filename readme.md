@@ -1,6 +1,6 @@
 ## Ajax Chat Practice
 
-Work in progress. For my learning purposes only.
+Work in progress. For personal learning purposes only.
 
 <b>Laravel version: 5.3.22<b>
 
