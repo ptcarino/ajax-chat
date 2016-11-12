@@ -2,7 +2,7 @@
 
 Work in progress. For my learning purposes only.
 
-Laravel version: 5.3
+Laravel version: 5.3.22
 
 AJAX Chat reference: https://www.youtube.com/watch?v=GLDjgbbBvOg
 
